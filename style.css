@@ -1,0 +1,15 @@
+.Container{
+    text-align: center;   
+    }
+table,th,tr{
+    justify-content: center;
+    font-style: oblique;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.btn{  
+    text-align: center;  
+    font-size: 25px;
+}  
+

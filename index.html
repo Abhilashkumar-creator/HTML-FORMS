@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="Container">
+    <h1>HTML FORM</h1>
+First Name: <input type="text" name="fname" id="fname" /><br/><br/>
+Last Name: <input type="text" name="lname" id="lname" /><br/><br/>
+Address: <input type="text" name="address" id="address"><br><br>
+Pincode: <input type="text" name="pincode" id ="Pincode" maxlength="6"><br><br>
+Gender: <select id="gender">
+        <option>---Gender---</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Others</option>
+    </select><br><br>
+Choice of Food 1:<select id="cof1">
+        <option>---Choice of Food 1---</option>
+        <option>Burger</option>
+        <option>Pizza</option>
+        <option>French Fries</option>
+        <option>Veg Noodles</option>
+        <option>Non-Veg Noodles</option>
+    </select><br><br>
+Choice of Food 2:<select id="cof2">
+        <option>---Choice of Food 2---</option>
+        <option>Burger</option>
+        <option>Pizza</option>
+        <option>French Fries</option>
+        <option>Veg Noodles</option>
+        <option>Non-Veg Noodles</option>
+    </select><br><br>   
+    State: <input type="text" name="pincode" id ="State"><br><br> 
+    Country: <input type="text" name="pincode" id ="Country"><br><br>     
+    <table style="width:100%" border="1px solid black">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Address</th>
+          <th>Pincode</th>
+          <th>Gender</th>
+          <th>Choice of Food 1</th>
+          <th>Choice of Food 2</th>
+          <th>state</th>
+          <th>Country</th>
+        </tr>
+        </table><br>
+<div class="btn">
+    <button onclick='addRow();' >Submit</button><br/><br/>
+</div>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
